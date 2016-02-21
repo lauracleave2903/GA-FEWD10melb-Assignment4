@@ -1,17 +1,7 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
+/*SETUP*/
 
 
-/******************************************
-/* SETUP
-/*******************************************/
-
-
-/* Box Model Hack */
+/*BOX MODEL HACK*/
 
 * {
     -moz-box-sizing: border-box;
@@ -23,7 +13,7 @@ Developer @GA in NYC
 }
 
 
-/* Clear fix hack */
+/*CLEAR FIX HACK*/
 
 .clearfix:after {
     content: ".";
@@ -51,9 +41,7 @@ Developer @GA in NYC
 }
 
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
+/* BASE STYLES*/
 
 body {
     color: #000;
@@ -68,12 +56,10 @@ body {
 }
 
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+/* LAYOUT*/
 
 
-/* Center the container */
+/*CENTER THE CONTAINER*/
 
 .container {
     width: 960px;
@@ -138,26 +124,24 @@ header {
 }
 
 .nyc {
-    background-image: url(../img/nyc.jpg)
+    background-image: url(../img/nyc.jpg);
 }
 
 .sf {
-    background-image: url(../img/sf.jpg)
+    background-image: url(../img/sf.jpg);
 }
 
 .la {
-    background-image: url(../img/la.jpg)
+    background-image: url(../img/la.jpg);
 }
 
 .austin {
-    background-image: url(../img/austin.jpg)
+    background-image: url(../img/austin.jpg);
 }
 
 .sydney {
-    background-image: url(../img/sydney.jpg)
+    background-image: url(../img/sydney.jpg);
 }
 
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+/* ADDITIONAL STYLES*/
